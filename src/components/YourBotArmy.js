@@ -9,7 +9,7 @@ function YourBotArmy({ bots, removeBot }) {
         key={bot.id}
         bot={bot}
             clickEvent={removeBot}
-        
+            hideBot={removeBot}
       />
     );
   });
